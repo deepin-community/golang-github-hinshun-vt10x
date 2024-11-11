@@ -1,5 +1,24 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-hinshun-vt10x (0.0~git20220301.5011da4-1) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * New upstream version 0.0~git20220301.5011da4
+  * Reorder fields in debian/control and debian/copyright
+  * Use dh-sequence-golang instead of dh-golang and --with=golang
+  * Remove "DH_GOLANG_EXCLUDES := cmd" and related dependencies.
+    Upstream has removed cmd and moved examples to another repo
+  * Mark library package with "Multi-Arch: foreign"
+  * Bump Standards-Version to 4.6.1 (no change)
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Anthony Fok <foka@debian.org>  Sun, 05 Jun 2022 08:10:37 -0600
+
+golang-github-hinshun-vt10x (0.0~git20180809.d55458d+ds1-2) unstable; urgency=medium
+
+  * Source-only upload for testing eligibility.
+
+ -- Cyril Brulebois <cyril@debamax.com>  Tue, 12 Jan 2021 17:56:46 +0000
+
+golang-github-hinshun-vt10x (0.0~git20180809.d55458d+ds1-1) unstable; urgency=medium
+
+  * Initial release (Closes: #979262).
+
+ -- Cyril Brulebois <cyril@debamax.com>  Mon, 04 Jan 2021 18:19:02 +0000
